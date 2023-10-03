@@ -18,16 +18,24 @@ int main(int argc, char const *argv[]) {
     std::cout << "Correct, you win!";
   } else if (guess > secret_number) {
     std::cout << "Too high\n";
+    std::cout << "Player 2, enter your second guess: ";
+    std::cin >> guess;
+    if (guess == secret_number) {
+      std::cout << "Correct, you win!";
+    } else {
+      std::cout << "Incorrect, the secret number was " << secret_number
+                << ", you lose.";
+    }
   } else {
     std::cout << "Too low\n";
-  }
-  std::cout << "Player 2, enter your second guess: ";
-  std::cin >> guess;
-  if (guess == secret_number) {
-    std::cout << "Correct, you win!";
-  } else {
-    std::cout << "Incorrect, the secret number was " << secret_number
-              << " you lose.";
+    std::cout << "Player 2, enter your second guess: ";
+    std::cin >> guess;
+    if (guess == secret_number) {
+      std::cout << "Correct, you win!";
+    } else {
+      std::cout << "Incorrect, the secret number was " << secret_number
+                << ", you lose.";
+    }
   }
   return 0;
 }
