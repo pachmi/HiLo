@@ -1,0 +1,15 @@
+{
+  "C_Cpp.clang_format_fallbackStyle": "Google",
+    
+  "files.exclude": {
+    "**/.??*": true,
+    "**/*.d": true,
+    "**/*.o": true,
+    "**/a.out": true,
+  },
+    
+  "githubPullRequests.ignoredPullRequestBranches": [
+    "main"
+  ]
+}
+
