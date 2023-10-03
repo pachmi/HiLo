@@ -1,4 +1,7 @@
-// TODO: Add your header
+// Daniel Thibault
+// daniel.thibault@csu.fullerton.edu
+// @JustDanielThanks
+// Partners: @pachmi
 
 /* Do not edit below this line. */
 /* Do not edit below this line. */
